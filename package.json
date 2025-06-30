@@ -1,0 +1,19 @@
+{
+  "name": "flare-template",
+  "version": "1.0.0",
+  "description": "A free landing page and website template.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "echo \"Development server not configured. Please install a local server like 'live-server' (npm install -g live-server) and update this script, e.g., 'live-server .'\""
+  },
+  "keywords": [
+    "template",
+    "landing page",
+    "website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "styleshout.com",
+  "license": "ISC"
+}

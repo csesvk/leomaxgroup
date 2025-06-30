@@ -17,6 +17,7 @@
     ================================================== -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/animations.css">
 
     <!-- script
     ================================================== -->
@@ -52,7 +53,7 @@
 
         <div class="s-header__logo">
             <a href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
+                <img src="images/logo.svg" alt="Homepage" class="hover-pulse">
             </a>
         </div>
 
@@ -60,14 +61,14 @@
     
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
+                    <li><a class="smoothscroll smooth-transition" href="#hero" title="Intro">Home</a></li>
+                    <li><a class="smoothscroll smooth-transition" href="#about" title="About">About</a></li>
+                    <li><a class="smoothscroll smooth-transition" href="#services" title="Services">Services</a></li>
+                    <li><a class="smoothscroll smooth-transition" href="#portfolio" title="Works">Works</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
-            <a href="mailto:#0" class="btn btn--primary btn--small">
+            <a href="mailto:#0" class="btn btn--primary btn--small hover-glow">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
                 Get In Touch
             </a>
@@ -101,10 +102,10 @@
     
                     <footer>
                         <div class="s-hero__content-social">
-                            <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#0" class="smooth-transition"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#0" class="smooth-transition"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#0" class="smooth-transition"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#0" class="smooth-transition"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
                         </div>
                     </footer>
                 </div>
@@ -113,7 +114,7 @@
         </div>
 
         <div class="s-hero__video">
-            <a class="s-hero__video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0" data-lity="">
+            <a class="s-hero__video-link hover-pulse" href="https://player.vimeo.com/video/117310401?color=01aef0&title=0&byline=0&portrait=0" data-lity="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
                 <span class="s-hero__video-text">Play Video</span>
             </a>
@@ -137,18 +138,18 @@
         <div class="row">
             <div class="column large-12">
 
-                <div class="section-title" data-num="01" data-aos="fade-up">
+                <div class="section-title scroll-reveal" data-num="01" data-aos="fade-up">
                     <h3 class="h6">Who We Are</h3>
                 </div>
 
             </div>
 
             <div class="column large-6 w-900-stack s-about__intro-text">
-                <h1 class="display-1" data-aos="fade-up">
+                <h1 class="display-1 scroll-reveal" data-aos="fade-up">
                     Flare is a branding agency based in somewhere. We design thoughtful digital experiences and beautiful brand aesthetics.
                 </h1>
 
-                <p class="lead" data-aos="fade-up">
+                <p class="lead scroll-reveal" data-aos="fade-up">
                     Non amet venenatis dolor id pellentesque mattis erat. Fermentum nunc, 
                     tincidunt sit elit amet scelerisque. Ac quisque quis eu nibh rutrum 
                     risus tellus egestas neque. Vestibulum ante ipsum primis in faucibus 
@@ -157,12 +158,12 @@
             </div>
 
             <div class="column large-6 w-900-stack s-about__photo-block">
-                <div class="s-about__photo" data-aos="fade-up"></div>
+                <div class="s-about__photo scroll-reveal" data-aos="fade-up"></div>
             </div>
         </div>
 
         <div class="row block-large-1-2 block-tab-full s-about__process item-list">
-            <div class="column item item-process" data-aos="fade-up">
+            <div class="column item item-process scroll-reveal" data-aos="fade-up">
                 <h3 class="item-title">Define</h3>
                 <p>
                 Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
@@ -171,7 +172,7 @@
                 ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
                 </p>
             </div>
-            <div class="column item item-process" data-aos="fade-up">
+            <div class="column item item-process scroll-reveal" data-aos="fade-up">
                 <h3 class="item-title">Design</h3>
                 <p>
                 Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
@@ -180,7 +181,7 @@
                 ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
                 </p>
             </div>
-            <div class="column item item-process" data-aos="fade-up">
+            <div class="column item item-process scroll-reveal" data-aos="fade-up">
                 <h3 class="item-title">Build</h3>
                 <p>
                 Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
@@ -189,7 +190,7 @@
                 ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
                 </p>
             </div>
-            <div class="column item item-process" data-aos="fade-up">
+            <div class="column item item-process scroll-reveal" data-aos="fade-up">
                 <h3 class="item-title">Launch</h3>
                 <p>
                 Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
@@ -209,18 +210,18 @@
 
         <div class="row">
             <div class="column large-12">
-                <div class="section-title" data-num="02" data-aos="fade-up">
+                <div class="section-title scroll-reveal" data-num="02" data-aos="fade-up">
                     <h3 class="h6">Our Expertise</h3>
                 </div>
             </div>
             <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
+                <h1 class="display-1 scroll-reveal" data-aos="fade-up">
                     Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
                     Quis dolores totam voluptatibus. 
                 </h1>
             </div>
             <div class="column large-6 w-900-stack">
-                <p class="lead" data-aos="fade-up">
+                <p class="lead scroll-reveal" data-aos="fade-up">
                 Velit deleniti harum sit beatae sint repellendus expedita. Omnis possimus 
                 sed rerum tenetur ea ab aut minima magnam. Deserunt sit cupiditate 
                 similique eveniet earum. Consectetur dolores maxime quisquam voluptate magni.
@@ -230,7 +231,7 @@
         </div>
 
         <div class="row block-large-1-2 block-tab-full s-services__services item-list">
-            <div class="column item item-service" data-aos="fade-up">
+            <div class="column item item-service scroll-reveal" data-aos="fade-up">
                 <span class="service-icon service-icon--product-design"></span>
                 <h3 class="item-title">Product Design</h3>
                 <p>
@@ -240,7 +241,7 @@
                 ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
                 </p>
             </div>
-            <div class="column item item-service" data-aos="fade-up">
+            <div class="column item item-service scroll-reveal" data-aos="fade-up">
                 <span class="service-icon service-icon--branding"></span>
                 <h3 class="item-title">Branding</h3>
                 <p>
@@ -250,7 +251,7 @@
                 ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
                 </p>
             </div>
-            <div class="column item item-service" data-aos="fade-up">
+            <div class="column item item-service scroll-reveal" data-aos="fade-up">
                 <span class="service-icon service-icon--frontend"></span>
                 <h3 class="item-title">Frontend Development</h3>
                 <p>
@@ -260,7 +261,7 @@
                 ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
                 </p>
             </div>
-            <div class="column item item-service" data-aos="fade-up">
+            <div class="column item item-service scroll-reveal" data-aos="fade-up">
                 <span class="service-icon service-icon--research"></span>
                 <h3 class="item-title">UX Research</h3>
                 <p>
@@ -270,7 +271,7 @@
                 ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
                 </p>
             </div>
-            <div class="column item item-service" data-aos="fade-up">
+            <div class="column item item-service scroll-reveal" data-aos="fade-up">
                 <span class="service-icon service-icon--illustration"></span>
                 <h3 class="item-title">Illustration</h3>
                 <p>
@@ -280,7 +281,7 @@
                 ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
                 </p>
             </div>
-            <div class="column item item-service" data-aos="fade-up">
+            <div class="column item item-service scroll-reveal" data-aos="fade-up">
                 <span class="service-icon service-icon--ecommerce"></span>
                 <h3 class="item-title">E-Commerce</h3>
                 <p>
@@ -298,12 +299,12 @@
 
         <div class="row s-porfolio__top">
             <div class="column large-6 w-900-stack">
-                <div class="section-title" data-num="03" data-aos="fade-up">
+                <div class="section-title scroll-reveal" data-num="03" data-aos="fade-up">
                     <h3 class="h6">Recent Works</h3>
                 </div>
             </div>
             <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
+                <h1 class="display-1 scroll-reveal" data-aos="fade-up">
                     Here are some of our projects we done lately. Feel
                     free to check them out.
                 </h1>
@@ -312,7 +313,7 @@
 
         <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
 
-            <div class="column" data-aos="fade-up">
+            <div class="column scroll-reveal" data-aos="fade-up">
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-red-wheel.jpg" title="The Red Wheel" data-size="1050x700">
@@ -324,13 +325,13 @@
                         <div class="folio-item__cat">Branding</div>
                         <h4 class="folio-item__title">The Red Wheel</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link smooth-transition">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
+            <div class="column scroll-reveal" data-aos="fade-up">
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life.jpg" title="Music Life" data-size="1050x700">
@@ -342,13 +343,13 @@
                         <div class="folio-item__cat">Frontend Design</div>
                         <h4 class="folio-item__title">Music Life</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link smooth-transition">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
+            <div class="column scroll-reveal" data-aos="fade-up">
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-oi-logo.jpg" Title="OI Logo" data-size="1050x700">
@@ -360,13 +361,13 @@
                         <div class="folio-item__cat">Branding</div>
                         <h4 class="folio-item__title">OI Logo</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link smooth-transition">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
+            <div class="column scroll-reveal" data-aos="fade-up">
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-corrugated-sheets.jpg" title="Corrugated Sheets" data-size="1050x700">
@@ -378,13 +379,13 @@
                         <div class="folio-item__cat">Frontend Design</div>
                         <h4 class="folio-item__title">Corrugated Sheets</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link smooth-transition">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
+            <div class="column scroll-reveal" data-aos="fade-up">
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
@@ -396,7 +397,7 @@
                         <div class="folio-item__cat">Frontend Design</div>
                         <h4 class="folio-item__title">Wooocraft</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link smooth-transition">
                         Project Link
                     </a>
                     <div class="folio-item__caption">
@@ -404,7 +405,7 @@
                     </div>
                 </div>
             </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
+            <div class="column scroll-reveal" data-aos="fade-up">
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
@@ -416,7 +417,7 @@
                         <div class="folio-item__cat">Frontend Design</div>
                         <h4 class="folio-item__title">The Lamp</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link smooth-transition">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
@@ -434,7 +435,7 @@
 
         <div class="row narrower s-clients__top h-text-center">
             <div class="column">
-                <h1 class="display-1" data-aos="fade-up">
+                <h1 class="display-1 scroll-reveal" data-aos="fade-up">
                 We've had the priveledge with working with
                 some of the largest and most iconic brands
                 </h1>
@@ -443,7 +444,7 @@
 
         <div class="row clients-outer">
             <div class="column">
-                <div class="clients" data-aos="fade-up">
+                <div class="clients scroll-reveal" data-aos="fade-up">
                     
                     <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/dropbox.svg" /></a>
                     <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/atom.svg" /></a>
@@ -462,7 +463,7 @@
 
             <div class="column large-12">
 
-                <div class="testimonial-slider" data-aos="fade-up">
+                <div class="testimonial-slider scroll-reveal" data-aos="fade-up">
 
                     <div class="testimonial-slider__slide">
                         <p>
@@ -540,8 +541,8 @@
 
         <div class="row narrower s-contact__top h-text-center">
             <div class="column">
-                <h3 class="h6">Get In Touch</h3>
-                <h1 class="display-1">
+                <h3 class="h6 scroll-reveal">Get In Touch</h3>
+                <h1 class="display-1 scroll-reveal">
                 Have an idea or an epic project in mind? Talk to
                 us. Let us work together and make something great.
                 Shoot us a message at
@@ -551,7 +552,7 @@
 
         <div class="row h-text-center">
             <div class="column">
-                <p class="s-contact__email">
+                <p class="s-contact__email scroll-reveal">
                     <a href="mailto:#0">hello@flare.com</a>
                 </p>
             </div>
@@ -574,7 +575,7 @@
                         1600 Amphitheatre Parkway <br>
                         Mountain View, California <br>
                         94043  US <br>
-                        <a href="tel:197-543-2345">+197 543 2345</a>
+                        <a href="tel:197-543-2345" class="smooth-transition">+197 543 2345</a>
                         </p>
                     </div>
         
@@ -582,21 +583,21 @@
                         <h4 class="h6">Follow Us</h4 class="h6">
         
                         <ul class="s-footer__list">
-                            <li><a href="#0">Facebook</a></li>
-                            <li><a href="#0">Twitter</a></li>
-                            <li><a href="#0">Instagram</a></li>
-                            <li><a href="#0">Dribbble</a></li>
+                            <li><a href="#0" class="smooth-transition">Facebook</a></li>
+                            <li><a href="#0" class="smooth-transition">Twitter</a></li>
+                            <li><a href="#0" class="smooth-transition">Instagram</a></li>
+                            <li><a href="#0" class="smooth-transition">Dribbble</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <div class="column large-4 medium-12 s-footer__block--end">
-                <a href="mailto:#0" class="btn h-full-width">Let's Talk</a>
+                <a href="mailto:#0" class="btn h-full-width hover-glow">Let's Talk</a>
 
                 <div class="ss-copyright">
                     <span>Copyright Flare 2020</span> 
-                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    <span>Design by <a href="https://www.styleshout.com/" class="smooth-transition">StyleShout</a> Distribution By <a href="https://themewagon.com" class="smooth-transition">ThemeWagon</a></span>
                 </div>
             </div>
 
@@ -655,6 +656,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
 
 </body>
 
